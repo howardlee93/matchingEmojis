@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+label{
+  font-size: calc(10px + 1vmin);
+}
+select {
+  font-size: calc(10px + 1vmin);
+}
+button{
+  font-size: calc(10px + 1vmin);
+}
+
+
+.Grid{
+  text-align: center;
+  margin: 1% 10% 1% 10%;
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.Row{
+  /* display: flex; */
+  /* flex-direction: row; */
+  justify-content: space-between;
+}
+
+.Square{
+  border-color: black;
+  border-style: solid;
+}
+
+.displayEmoji{
+  font-size: calc(10px + 1vmin);
+}
